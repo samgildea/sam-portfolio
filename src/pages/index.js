@@ -1,3 +1,12 @@
 import React from "react"
+import Layout from "../components/Layout/layout"
 
-export default () => <div>Hello world!</div>
+import '../styles/index.scss';
+
+
+export default () => (
+    <Layout> 
+
+
+    </Layout>
+  )
