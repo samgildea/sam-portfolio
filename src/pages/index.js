@@ -22,7 +22,7 @@ export default () => (
 
     <h1>Latest Work</h1>
     <h2>Slate</h2>
-    <Flex justifyContent="center">
+    <Flex justifyContent="center" flexWrap="wrap">
       <Box p={5}
         width={[1, 1, 1 / 2]}
       >
@@ -33,7 +33,7 @@ export default () => (
 <img src={SlateShopPage}  />       </Box>
     </Flex>
     <h2>Turbonomic</h2>
-    <Flex justifyContent="center">
+    <Flex justifyContent="center" flexWrap="wrap">
       <Box p={5}
         width={[1, 1, 1 / 2]}
       >
