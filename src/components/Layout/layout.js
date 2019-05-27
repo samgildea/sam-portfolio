@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby";
 
 export default ({ children }) => (
-  <div style={{ margin: `3rem auto`, maxWidth: `80%`, padding: `0 1rem` }}>
+  <div style={{ margin: `1rem auto`, maxWidth: `100%`, padding: `0 1rem` }}>
     <div className="fixed-header">
     <h1 className="links">sam gildea</h1>
     <ul>
