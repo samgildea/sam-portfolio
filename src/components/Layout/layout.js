@@ -2,6 +2,8 @@ import React from "react"
 import { Link } from "gatsby";
 
 export default ({ children }) => (
+  <>
+  <title>Sam Gildea - Developer/Designer</title>
   <div style={{ margin: `1rem auto`, maxWidth: `100%`, padding: `0 1rem` }}>
     <div className="fixed-header">
     <h1 className="links">sam gildea</h1>
@@ -18,6 +20,7 @@ export default ({ children }) => (
     <hr></hr>
     {children}
   </div>
+  </>
 )
 
 

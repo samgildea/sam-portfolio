@@ -23,7 +23,10 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "rebass": "^3.1.0",
-    "styled-components": "^4.2.0"
+    "styled-components": "^4.2.0",
+    "three": "^0.105.2",
+    "three-js": "^79.0.0",
+    "three-orbitcontrols": "^2.102.1"
   },
   "devDependencies": {
     "prettier": "^1.17.1"
