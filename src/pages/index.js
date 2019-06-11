@@ -5,7 +5,8 @@ import { Flex, Box } from "@rebass/grid"
 import Img from "gatsby-image"
 import SlateShopPage from "../images/shopp.png"
 import SlateHomePage from "../images/home.png"
-import turbo from "../images/turbo.png"
+import turboProduct from "../images/product.png"
+import turboCert from "../images/cert.png"
 import { graphql } from "gatsby"
 import Scene from '../components/ThreeScene'
 import "../styles/index.scss"
@@ -27,9 +28,11 @@ export default () => (
     />
     <PortfolioItem
       title="Turbonomic"
-      leftImage={turbo}
-      rightImage={turbo}
+      leftImage={turboProduct}
+      rightImage={turboCert}
       stack="HTML, CSS, JAVASCRIPT, PHP"
     />
   </Layout>
+
+  
 )
