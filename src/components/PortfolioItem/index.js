@@ -2,13 +2,19 @@ import React from "react"
 import { Link } from "gatsby"
 import { Flex, Box } from "@rebass/grid"
 import Img from "gatsby-image"
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 
 const PortfolioItem = props => {
   return ( (
   <>
   <h1>{props.title}</h1>
-  <Flex justifyContent="center" flexWrap="wrap">
+  <Flex     
+
+     justifyContent="center" flexWrap="wrap">
       <Box p={5} width={[1, 1, 1 / 2]}>
         <img src={props.leftImage} />{" "}
       </Box>
