@@ -26,7 +26,7 @@ export default () => (
         leftImage={SlateHomePage}
         rightImage={SlateShopPage}
         stack="HTML, CSS, JAVASCRIPT, REACT.JS, GATSBY.JS, GRAPHQL"
-        goal="Worked with founders to establish brand identity and develop web site.  Built site using Gatsby.js and integrated the Shopify api to control e-commerce functionality.   Connected CMS to allow full customization. "
+        goal="Worked with founders to establish brand identity and develop web site.  Built site using Gatsby.js and integrated the Shopify API to control e-commerce functionality.   Connected CMS to allow full customization. "
       />{" "}
     </div>
 
