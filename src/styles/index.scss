@@ -50,10 +50,10 @@ h1 {
 	font-size: 24px;
 }
 h2 {
-	font-size: 18px;
+	font-size: 1rem;
 }
 h3 {
-	font-size: 16px;
+	font-size: 1.25rem;
 }
 
 // PARAGRAPHS AND OTHERS
@@ -63,6 +63,11 @@ p, a {
 p {
 	line-height: 1.5;
 	color: $base-font-secondary-color;
+	font-size: 1rem;
+}
+
+.goal-text {
+	font-size: 1.25rem;
 }
 img {
 	width: 100%;

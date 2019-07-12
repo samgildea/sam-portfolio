@@ -13,8 +13,7 @@ import Scene from "../components/ThreeScene"
 import "../styles/index.scss"
 
 import AOS from "aos"
-import "aos/dist/aos.css" // You can also use <link> for styles
-// ..
+import "aos/dist/aos.css" 
 AOS.init()
 
 export default () => (
@@ -31,6 +30,7 @@ export default () => (
         leftImage={SlateHomePage}
         rightImage={SlateShopPage}
         stack="HTML, CSS, JAVASCRIPT, REACT.JS, GATSBY.JS, GRAPHQL"
+        goal="Worked with founders to establish brand identity and develop web site.  Built site using Gatsby.js and integrated the Shopify api to control e-commerce functionality.   Connected CMS to allow full customization. "
       />{" "}
     </div>
 
@@ -42,6 +42,7 @@ export default () => (
         leftImage={turboProduct}
         rightImage={turboCert}
         stack="HTML, CSS, JAVASCRIPT, PHP"
+        goal="Worked with marketing team to update site style and content.  Used Wordpress CMS to create custom templates in PHP, which allowed the marketing team to edit content.  "
       />
     </div>
   </>

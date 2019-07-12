@@ -22,7 +22,9 @@ const PortfolioItem = props => {
       <img src={props.rightImage} />{" "}
       </Box>
     </Flex>
-  <h3>Tech</h3>
+  <h3>Goal:</h3>
+  <p className="goal-text">{props.goal}</p>
+  <h3>Tech:</h3>
       <h4>{props.stack}</h4>
     <hr />
   </>

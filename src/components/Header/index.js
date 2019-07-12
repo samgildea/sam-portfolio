@@ -19,7 +19,7 @@ const HomeHeader = props => {
             <h1>Sam Gildea</h1>
             <p className="font-color-light-gray-super">
               Developer/Designer. Frontend Engineer. Currently studying computer
-              science/design at Northeastern University.{" "}
+              science/design at Northeastern University. Frontend development intern at <a href="https://turbonomic.com/">Turbonomic</a> in Boston.
             </p>{" "}
             <a href="https://github.com/samgildea">github</a>
             <br />
