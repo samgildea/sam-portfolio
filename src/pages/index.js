@@ -12,10 +12,6 @@ import { graphql } from "gatsby"
 import Scene from "../components/ThreeScene"
 import "../styles/index.scss"
 
-import AOS from "aos"
-import "aos/dist/aos.css" 
-AOS.init()
-
 export default () => (
   <>
     <HomeHeader />
@@ -23,7 +19,7 @@ export default () => (
     <hr />
 
     <h1>Latest Work</h1>
-    <div data-aos="fade">
+    <div>
       {" "}
       <PortfolioItem
         title="Slate"
@@ -34,7 +30,7 @@ export default () => (
       />{" "}
     </div>
 
-    <div data-aos="fade">
+    <div>
     {" "}
 
       <PortfolioItem

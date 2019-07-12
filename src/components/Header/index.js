@@ -3,15 +3,12 @@ import { Link } from "gatsby"
 import { Flex, Box } from "@rebass/grid"
 import Img from "gatsby-image"
 import "../Header/index.scss"
-import AOS from "aos"
-import "aos/dist/aos.css" // You can also use <link> for styles
-// ..
-AOS.init()
+
 
 const HomeHeader = props => {
   return (
     <>
-      <Flex data-aos="fade-in" className="home-header" alignItems="center">
+      <Flex className="home-header" alignItems="center">
         <Box>
           {" "}
           <div>

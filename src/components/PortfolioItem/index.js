@@ -2,10 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { Flex, Box } from "@rebass/grid"
 import Img from "gatsby-image"
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
-AOS.init();
+
 
 
 const PortfolioItem = props => {
